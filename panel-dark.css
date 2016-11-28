@@ -1,0 +1,10 @@
+/* Panel behind main page */
+#extra2 {
+	position: fixed;
+	background-image: url('http://i.imgur.com/R31rLlS.png');
+	background-repeat: repeat;
+	width: 984px;
+  	top:0px; bottom:0; left:0; right:0;
+	margin:0px auto;
+	z-index:-2;
+}
