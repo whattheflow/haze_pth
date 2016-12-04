@@ -1,0 +1,188 @@
+// Dark Panel Theme
+@color-main: #000000;
+@color-main-rgb-R: 0;
+@color-main-rgb-G: 0;
+@color-main-rgb-B: 0;
+
+@color-alt: #000000;
+@color-alt-rgb-R: 0;
+@color-alt-rgb-B: 0;
+@color-alt-rgb-G: 0;
+
+@color-text-main: #fff;
+@color-text-selected: rgba(255,255,255,0.4);
+@color-text-important: #fff;
+
+@font-weight-main: 300;
+
+@color-menu-text: #fff;
+@color-menu-text-hover: #000000;
+@color-menu-background-hover: #fff;
+@color-menu-background-pressed: #f5f5f5;
+@color-menu-dropdown-text: #000000;
+@color-menu-dropdown-background: #fff;
+@color-menu-dropdown-background-hover: #e5e5e5;
+@color-menu-dropdown-background-pressed: #dadada;
+
+@color-header-background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.48));
+@color-header-text: @color-text-main;
+
+@color-button-background: linear-gradient(rgba(255,255,255,0.95),rgba(255,255,255,0.78));
+@color-button-background-hover: linear-gradient(rgba(255,255,255,0.83),rgba(255,255,255,0.68));
+@color-button-background-pressed: linear-gradient(rgba(255,255,255,0.69),rgba(255,255,255,0.79)); 
+@color-button-border: rgba(255,255,255,0.2);
+@color-button-text: #000000;
+
+@color-blockquote-border: rgba(255,255,255,0.16);
+@color-blockquote-background: @tile-box-bg repeat;
+
+@color-alertbar-background: linear-gradient(rgba(@color-main-rgb-R,@color-main-rgb-G,@color-main-rgb-B,0.40),rgba(@color-main-rgb-R,@color-main-rgb-G,@color-main-rgb-B,0.42));
+
+@color-textarea-background: rgba(@color-alt-rgb-R,@color-alt-rgb-G,@color-alt-rgb-B,0.32);
+@color-textarea-border: rgba(255,255,255,0.08);
+@color-textarea-background-active: rgba(@color-alt-rgb-R,@color-alt-rgb-G,@color-alt-rgb-B,0.42);
+@color-textarea-border-active: rgba(255,255,255,0.10);
+
+@color-forum-unreadpost: #fff;
+
+@color-background-menu-item1: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.62));
+@color-background-menu-item2: linear-gradient(rgba(0,0,0,0.54),rgba(0,0,0,0.56));
+@color-background-menu-item3: linear-gradient(rgba(0,0,0,0.48),rgba(0,0,0,0.50));
+@color-background-menu-item4: linear-gradient(rgba(0,0,0,0.42),rgba(0,0,0,0.44));
+@color-background-menu-item5: linear-gradient(rgba(0,0,0,0.36),rgba(0,0,0,0.38));
+@color-background-menu-item6: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.32));
+@color-background-menu-item7: linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.26));
+@color-background-menu-item8: linear-gradient(rgba(0,0,0,0.18),rgba(0,0,0,0.20));
+@color-background-menu-item9: linear-gradient(rgba(0,0,0,0.12),rgba(0,0,0,0.14));
+@color-background-menu-item10: linear-gradient(rgba(0,0,0,0.06),rgba(0,0,0,0.08));
+
+@color-toolbar-background: #373838;
+@color-error-message: #AF2405;
+@color-unread-pm: rgba(104,184,92,1);
+@color-poll: rgba(255,255,255,0.4);
+
+@color-stats-text: #fff;
+
+@color-torrenttable-overlay: rgba(255,255,255,0.05);
+
+@color-suggestions-background: rgba(59,59,59,0.9);
+@color-suggestions-text-hover: rgba(59,59,59,1);
+@color-suggestions-background-hover: #fff;
+@color-suggestions-border: rgba(38,50,64,0.9);
+@color-suggestions-selected-bold: @color-suggestions-background;
+
+@color-musicbrainzpopup-background: rgba(44,44,44,0.9);
+
+@color-notification-top: #393a3b;
+@color-notification-bottom: #535455;
+@color-notification-border: #535455;
+
+@color-text-bold-important: #01afd8;
+
+@color-link: rgba(255,255,255,0.6);
+@color-link-hover: #02c2f2;
+@color-link-stats: rgba(255,255,255,0.8);
+@color-link-floating: rgba(255,255,255,0.6);
+@color-link-floating-hover: #01afd8;
+@color-link-headers: rgba(255,255,255,0.5);
+@color-link-torrentoptions: #c3c0c0;
+
+@color-menu-pressed: #f3f3f3;
+@color-menu-hover: #f3f3f3;
+@color-save-message-background: rgba(255,255,255,0.6);
+
+@shadow-h2: 0 0 15px rgba(0, 0, 0, 0.1);
+@shadow-link-floating: 0px 0px 15px rgba(0,0,0,0.2);
+@shadow-userstats: 0 0 15px rgba(0, 0, 0, 0.1);
+@shadow-donate-info: none;
+
+@opacity-searchbar-background: 0.10;
+@opacity-searchbar-border: 0.10;
+@opacity-searchbar-input: 0.2;
+@opacity-searchbar-input-border: 0.2;
+@opacity-searchbar-input-active: 0.35;
+@opacity-searchbar-input-active-border: 0.50;
+
+@deco-link-torrents: none;
+
+@color-ratio-00: #e90c53;
+@color-ratio-01: #f91c44;
+@color-ratio-02: #ff3a3a;
+@color-ratio-03: #fd632a;
+@color-ratio-04: #ff7f30;
+@color-ratio-05: #ff992f;
+@color-ratio-06: #ffaf31;
+@color-ratio-07: #ffc332;
+@color-ratio-08: #ffd234;
+@color-ratio-09: #ffdf35;
+@color-ratio-10: #44c00f;
+@color-ratio-20: #5dcf26;
+@color-ratio-50: #83e84c;
+@color-ratio-99: #a1fb69;
+
+@color-background-placeholder: #212121;
+@image-logo: url("https://i.imgur.com/sLr2Ckv.png");
+@image-logo-hover: url("https://i.imgur.com/sLr2Ckv.png");
+@image-default-background: url("https://i.imgur.com/pm8fthR.png");
+@tile-alt-row: url("https://i.imgur.com/R2KvaNX.png");
+@tile-box-bg: url("https://i.imgur.com/PR8Y9AX.png");
+@tile-reply-bg: url("https://i.imgur.com/PR8Y9AX.png");
+
+@image-rippy-top: url("images/rippy/rippy_top.png");
+@image-rippy-middle: url("images/rippy/rippy_middle.png");
+@image-rippy-bottom: url("images/rippy/rippy_bottom.png");
+@image-snatched: url("https://i.imgur.com/qNWsRe8.png");
+@image-seeders: url("https://i.imgur.com/Y1JRS7X.png");
+@image-leechers: url("https://i.imgur.com/Jbhygxk.png");
+@image-donor: url("https://i.imgur.com/9ETtDEW.png");
+@image-donor2: url("https://i.imgur.com/3iZUhtJ.png");
+@image-donor3: url("https://i.imgur.com/yUtjUSM.png");
+@image-donor4: url("https://i.imgur.com/rXVXGUC.png");
+@image-donor5: url("https://i.imgur.com/0OVYDgl.png");
+@image-donor6: url("https://i.imgur.com/yXQKxEd.png");
+
+@image-menu-staff: url('https://i.imgur.com/tyDbVVa.png');
+@image-menu-upload: url('https://i.imgur.com/cd2Ngl0.png');
+@image-menu-invite: url('https://i.imgur.com/kVSETsQ.png');
+@image-menu-store: url('https://i.imgur.com/HNrVbzA.png');
+@image-menu-donate: url('https://i.imgur.com/C6BVDl5.png');
+
+@image-caret: url('https://i.imgur.com/j8XvFVC.png');
+@image-caret-hover: url('https://i.imgur.com/J7IzZkk.png');
+@image-search: url('https://i.imgur.com/4zIhAoG.png');
+
+@image-last-read: url('https://i.imgur.com/GATZ4hq.png');
+@image-locked-sticky-unread: url('https://i.imgur.com/qTYKzjB.png');
+@image-locked-sticky-read: url('ihttps://i.imgur.com/9kbxnhM.png');
+@image-sticky-read: url('https://i.imgur.com/IYACWtX.png');
+@image-sticky-unread: url('https://i.imgur.com/Upcz3wp.png');
+@image-locked-unread: url('https://i.imgur.com/jzyUItl.png');
+@image-locked-read: url('https://i.imgur.com/Fw21T3L.png');
+@image-unread: url('https://i.imgur.com/jwMhCLc.png');
+@image-read: url('https://i.imgur.com/GHUeaCI.png');
+
+@image-show-torrents: url('https://i.imgur.com/5s3SHAm.png');
+@image-hide-torrents: url('https://i.imgur.com/kcOajKp.png');
+
+@image-clear-field: url('https://i.imgur.com/TLHcBtR.png');
+
+@image-dropdown-button:         url('https://i.imgur.com/Mt2cl7H.png');
+@image-dropdown-button-hover:   url('https://i.imgur.com/ouKPbCs.png');
+@image-dropdown-button-pressed: url('https://i.imgur.com/YaZHNPT.png');
+
+@image-upvote: url('https://i.imgur.com/eNjIzxT.png');
+@image-upvote-small: url('https://i.imgur.com/7nKhiSW.png');
+@image-downvote: url('https://i.imgur.com/wbQTjWT.png');
+@image-downvote-small: url('https://i.imgur.com/7ro8vOZ.png');
+@image-clearvote: url('https://i.imgur.com/p7R4m4d.png');
+@image-upvote-small-pressed: url('https://i.imgur.com/Enymetj.png');
+@image-downvote-small-pressed: url('https://i.imgur.com/LYCl7CS.png');
+
+@import "structure.less";
+
+#log span[style="color: blue;"] {
+	color: rgb(165, 233, 255) !important;
+}
+#log span[style="color: green;"] {
+	color: rgb(102, 179, 102) !important;
+}

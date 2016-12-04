@@ -1,0 +1,43 @@
+[align=center]
+[size=10]Haze[/size]
+
+[img]http://i.imgur.com/3fm0NGP.jpg[/img][/align]
+
+[size=4][b]Designer:[/b] apopagasm
+[b]Developer:[/b] Exanurous[/size]
+
+
+[size=6]Themes[/size]
+
+Original: https://gitcdn.link/cdn/exanurous/haze_pth/master/style.css
+[url=http://i.imgur.com/JNHPWdO.png][img]http://i.imgur.com/NpBRBy2.png[/img][/url]
+
+
+Colorless: https://gitcdn.link/cdn/exanurous/haze_pth/master/style-colorless.css
+[url=http://i.imgur.com/s8x5pKJ.png][img]http://i.imgur.com/Zv9CqGZ.png[/img][/url]
+
+
+Light: https://gitcdn.link/cdn/exanurous/haze_pth/master/style-light.css
+[url=http://i.imgur.com/pvoV2P1.jpg][img]http://i.imgur.com/yAk4iWk.png[/img][/url]
+
+
+Dark: https://gitcdn.link/cdn/exanurous/haze_pth/master/style-dark.css
+[url=http://i.imgur.com/cEvdhqw.png][img]http://i.imgur.com/eeNtmvi.png[/img][/url]
+
+
+Blur: https://gitcdn.link/cdn/exanurous/haze_pth/master/style-blur.css
+[url=http://i.imgur.com/a9NYx6n.jpg][img]http://i.imgur.com/Tm8BixM.png[/img][/url]
+
+
+Blur with panel: https://gitcdn.link/cdn/exanurous/haze_pth/master/style-panel-blur.css
+[url=http://i.imgur.com/5tm2AyP.jpg][img]http://i.imgur.com/MtOHoDf.png[/img][/url]
+
+Click banners for full-size preview images.
+
+
+[size=6]Wallpapers[/size]
+Wallpapers can be changed by editing the background image URL referenced in the [code]style-x.css[/code] file of your choosing and re-uploading the edited CSS elsewhere.
+
+
+[size=6]Bug Report[/size]
+If you find any issues with the stylesheet, please post them in this thread. Identify the stylesheet you're using, your operating system, browser, browser version, and a screenshot or a link to a page where the bug occurs.

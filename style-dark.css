@@ -2,14 +2,13 @@
 -------------------------- Haze --------------------------
 Design: apopagasm
 CSS: Exanurous
-Build: 41
 Bug Reports: forums.php?action=viewthread&threadid=584
 Style derived from Gazelle Postmod
 *********************************************************/
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,bold);
-@import url(https://gitcdn.link/cdn/exanurous/haze_pth/master/layout-dark.css);
-@import url(https://gitcdn.link/cdn/exanurous/haze_pth/master/panel-dark.css);
+@import url(https://gitcdn.link/cdn/exanurous/beluga/master/theme-dark.css);
+@import url(https://gitcdn.link/cdn/exanurous/beluga/master/panel-dark.css);
 
 /* Background Image */
 body {

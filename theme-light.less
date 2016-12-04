@@ -1,0 +1,267 @@
+// Light Panel Theme
+@color-main: #182029;
+@color-main-rgb-R: 24;
+@color-main-rgb-G: 32;
+@color-main-rgb-B: 41;
+
+@color-alt: #182029;
+@color-alt-rgb-R: 24;
+@color-alt-rgb-B: 32;
+@color-alt-rgb-G: 41;
+
+@color-text-main: #182029;
+@color-text-selected: rgba(24,32,41,0.4);
+@color-text-important: #b22617;
+
+@font-weight-main: 400;
+
+@color-menu-text: #FFF;
+@color-menu-text-hover: #000000;
+@color-menu-background-hover: #fff;
+@color-menu-background-pressed: #f5f5f5;
+@color-menu-dropdown-text: #000000;
+@color-menu-dropdown-background: #fff;
+@color-menu-dropdown-background-hover: #e5e5e5;
+@color-menu-dropdown-background-pressed: #dadada;
+
+@color-header-background: linear-gradient(rgba(24,32,41,0.70), rgba(24,32,41,0.72));
+@color-header-text: #fff;
+
+@color-button-background: linear-gradient(rgba(24,32,41,0.64),rgba(24,32,41,0.70));
+@color-button-background-hover: linear-gradient(rgba(24,32,41,0.70),rgba(24,32,41,0.64));
+@color-button-background-pressed: linear-gradient(rgba(24,32,41,0.74),rgba(24,32,41,0.70)); 
+@color-button-border: rgba(24,32,41,0.2);
+@color-button-text: #fff;
+
+@color-blockquote-border: #d9d9d9;
+@color-blockquote-background: #fff;
+
+@color-alertbar-background: rgba(@color-main-rgb-R,@color-main-rgb-G,@color-main-rgb-B,0.61);
+
+@color-textarea-background: rgba(255,255,255,1);
+@color-textarea-border: rgba(0,0,0,0.13);
+@color-textarea-background-active: rgba(255,255,255,1);
+@color-textarea-border-active: rgba(0,0,0,0.33);
+
+@color-forum-unreadpost: #02c2f2;
+
+@color-background-menu-item1: linear-gradient(rgba(24,32,41,0.73),rgba(24,32,41,0.81));
+@color-background-menu-item2: linear-gradient(rgba(24,32,41,0.69),rgba(24,32,41,0.77));
+@color-background-menu-item3: linear-gradient(rgba(24,32,41,0.65),rgba(24,32,41,0.73));
+@color-background-menu-item4: linear-gradient(rgba(24,32,41,0.61),rgba(24,32,41,0.69));
+@color-background-menu-item5: linear-gradient(rgba(24,32,41,0.57),rgba(24,32,41,0.65));
+@color-background-menu-item6: linear-gradient(rgba(24,32,41,0.53),rgba(24,32,41,0.61));
+@color-background-menu-item7: linear-gradient(rgba(24,32,41,0.49),rgba(24,32,41,0.57));
+@color-background-menu-item8: linear-gradient(rgba(24,32,41,0.45),rgba(24,32,41,0.53));
+@color-background-menu-item9: linear-gradient(rgba(24,32,41,0.41),rgba(24,32,41,0.49));
+@color-background-menu-item10: linear-gradient(rgba(24,32,41,0.37),rgba(24,32,41,0.45));
+
+@color-toolbar-background: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.8));
+@color-error-message: #AF2405;
+@color-unread-pm: rgba(104,184,92,1);
+
+@color-stats-text: #182029;
+
+@color-torrenttable-overlay: rgba(0,0,0,0.02);
+
+@color-suggestions-background: #f7f7f7;
+@color-suggestions-text-hover: @color-text-main;
+@color-suggestions-background-hover: #fff;
+@color-suggestions-border: rgba(0,0,0,0.13);
+@color-suggestions-selected-bold: @color-text-bold-important;
+
+@color-musicbrainzpopup-background: rgba(255,255,255,0.9);
+
+@color-notification-top: #FFF;
+@color-notification-bottom: #f2f2f2;
+@color-notification-border: rgba(24,32,41,0.4);
+
+@color-text-bold-important: #01afd8;
+
+@color-link: rgba(24,32,41,0.6);
+@color-link-hover: #02c2f2;
+@color-link-stats: rgba(24,32,41,0.6);
+@color-link-floating: rgba(24,32,41,0.5);
+@color-link-floating-hover: #182029;
+@color-link-headers: rgba(255,255,255,0.5);
+@color-link-torrentoptions: #c3c0c0;
+
+@color-menu-pressed: #f3f3f3;
+@color-menu-hover: #f3f3f3;
+@color-save-message-background: rgba(104,184,92,1);
+@color-poll: rgba(24,32,41,0.7);
+
+@shadow-h2: 0 0 15px rgba(0, 0, 0, 0.1);
+@shadow-link-floating: 0px 0px 15px rgba(0,0,0,0.2);
+@shadow-userstats: 0 0 15px rgba(0, 0, 0, 0.1);
+@shadow-donate-info: none;
+
+@opacity-searchbar-background: 0.05;
+@opacity-searchbar-border: 0.07;
+@opacity-searchbar-input: 0.3;
+@opacity-searchbar-input-border: 0.3;
+@opacity-searchbar-input-active: 0.5;
+@opacity-searchbar-input-active-border: 0.63;
+
+@deco-link-torrents: underline;
+
+@color-ratio-00: #cf1130;
+@color-ratio-01: #e72127;
+@color-ratio-02: #f94223;
+@color-ratio-03: #fd632a;
+@color-ratio-04: #ff832e;
+@color-ratio-05: #fe972f;
+@color-ratio-06: #faa430;
+@color-ratio-07: #f5ad30;
+@color-ratio-08: #f0b231;
+@color-ratio-09: #edb82f;
+@color-ratio-10: #56b800;
+@color-ratio-20: #40a600;
+@color-ratio-50: #2e9900;
+@color-ratio-99: #1d8700;
+
+@color-background-placeholder: #96999d;
+@image-logo: url("https://i.imgur.com/sDNAHGA.png");
+@image-logo-hover: url("https://i.imgur.com/sDNAHGA.png");
+@image-default-background: url("https://i.imgur.com/pWy5wGh.jpg");
+@tile-alt-row: url("https://i.imgur.com/sleCXFQ.png");
+@tile-box-bg: url("https://i.imgur.com/TElRNWL.png");
+@tile-reply-bg: url("https://i.imgur.com/TElRNWL.png");
+
+@image-rippy-top: url("https://i.imgur.com/fnqFndz.png");
+@image-rippy-middle: url("https://i.imgur.com/qMp2hWa.png");
+@image-rippy-bottom: url("https://i.imgur.com/YblZz01.png");
+@image-snatched: url("https://i.imgur.com/qNWsRe8.png");
+@image-seeders: url("https://i.imgur.com/Y1JRS7X.png");
+@image-leechers: url("https://i.imgur.com/Jbhygxk.png");
+@image-donor: url("https://i.imgur.com/9ETtDEW.png");
+@image-donor2: url("https://i.imgur.com/3iZUhtJ.png");
+@image-donor3: url("https://i.imgur.com/yUtjUSM.png");
+@image-donor4: url("https://i.imgur.com/rXVXGUC.png");
+@image-donor5: url("https://i.imgur.com/0OVYDgl.png");
+@image-donor6: url("https://i.imgur.com/yXQKxEd.png");
+
+@image-menu-staff: url('https://i.imgur.com/LMa8mAH.png');
+@image-menu-upload: url('https://i.imgur.com/hot0Jzc.png');
+@image-menu-invite: url('https://i.imgur.com/RU2imw6.png');
+@image-menu-store: url('https://i.imgur.com/IRVh2R9.png');
+@image-menu-donate: url('https://i.imgur.com/KrVOpw5.png');
+
+@image-caret: url('https://i.imgur.com/j8XvFVC.png');
+@image-caret-hover: url('https://i.imgur.com/J7IzZkk.png');
+@image-search: url('https://i.imgur.com/TF98lRr.png');
+
+@image-last-read: url('https://i.imgur.com/zmPst4a.png');
+@image-locked-sticky-unread: url('https://i.imgur.com/Gjjxlq1.png');
+@image-locked-sticky-read: url('https://i.imgur.com/HaWCvN6.png');
+@image-sticky-read: url('https://i.imgur.com/bD2tjZs.png');
+@image-sticky-unread: url('https://i.imgur.com/wlvskFN.png');
+@image-locked-unread: url('https://i.imgur.com/xcoayGO.png');
+@image-locked-read: url('https://i.imgur.com/fqjCL03.png');
+@image-unread: url('https://i.imgur.com/WVHAqA6.png');
+@image-read: url('https://i.imgur.com/JPyChOq.png');
+
+@image-show-torrents: url('https://i.imgur.com/08cgC1Z.png');
+@image-hide-torrents: url('https://i.imgur.com/BFjOT3R.png');
+
+@image-clear-field: url('https://i.imgur.com/KJeGVfC.png');
+
+@image-dropdown-button:         url('https://i.imgur.com/pwLb66g.png');
+@image-dropdown-button-hover:   url('https://i.imgur.com/b3a04VX.png');
+@image-dropdown-button-pressed: url('https://i.imgur.com/Y9hN03k.png');
+
+@image-upvote: url('https://i.imgur.com/eNjIzxT.png');
+@image-upvote-small: url('https://i.imgur.com/7nKhiSW.png');
+@image-downvote: url('https://i.imgur.com/wbQTjWT.png');
+@image-downvote-small: url('https://i.imgur.com/7ro8vOZ.png');
+@image-clearvote: url('https://i.imgur.com/p7R4m4d.png');
+@image-upvote-small-pressed: url('https://i.imgur.com/Enymetj.png');
+@image-downvote-small-pressed: url('https://i.imgur.com/LYCl7CS.png');
+
+@import "structure.less";
+
+strong, b {
+	font-weight: 600 !important;
+}
+
+#searchbars {
+	background: #f7f7f7;
+	background-image: @image-search;
+	background-repeat: no-repeat;
+    background-position: 13px 14px;
+    border: none;
+}
+
+input[type=text],
+input[type="password"], 
+input[type="search"], 
+input[type="email"], 
+#searchbars input {
+	background: @color-textarea-background;
+	border: 1px solid @color-textarea-border;
+}
+
+input[type=text]:hover,
+input[type=text]:focus,
+input[type="search"]:hover,
+input[type="search"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus,
+input[type="email"]:hover,
+input[type="email"]:focus 
+#searchbars input:hover,
+#searchbars input:focus {
+    background: @color-textarea-background-active !important;
+    border: 1px solid @color-textarea-border-active !important;
+}
+
+select {
+	background: @image-dropdown-button, rgba(255, 255, 255, 1);
+	border: 1px solid @color-textarea-border;
+	background-repeat: no-repeat, repeat;
+    background-position: right 2px top 2px, 0 0;
+}
+
+select:hover,
+select:focus,
+select:active {
+	background: @image-dropdown-button, rgba(255, 255, 255, 1);
+	background-repeat: no-repeat, repeat;
+    background-position: right 2px top 2px, 0 0;
+	border: 1px solid @color-textarea-border-active !important;
+}
+
+div[class~=tooltipster-base] {
+    color: #fff !important;
+}
+
+.box, 
+.head, 
+#reply_box h3, 
+#inbox h3, 
+.colhead, .colhead_dark, 
+.box, .box2, 
+.collage_table, .torrent_table,
+#searchbars {
+	box-shadow: 0 0 0 1px rgba(33, 33, 33, 0.16) inset;
+}
+
+.torrent_table tr.group {
+	background-image: none;
+	background-color: #ededed;
+}
+
+#alerts a {
+    color: #fff;
+}
+
+div[class~=tooltipster-content] > a {
+    color: #fff;
+}
+div[class~=tooltipster-content] > a:hover {
+    text-decoration: underline;
+}
+
+span[style="color: red;"] {
+    color: #b22617 !important;
+}
