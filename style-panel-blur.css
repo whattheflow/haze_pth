@@ -15,8 +15,14 @@ Style derived from Gazelle Postmod
 body          {background-image: url('https://i.imgur.com/G3IP490.jpg');}
 #extra3:after {background-image: url('https://i.imgur.com/G3IP490.jpg');}
 
-#extra1 (
+#extra1 {
 
-    opacity: 0;
+    background-color: none;
+
+    background: none;
+
+    box-shadow: none;
 
 }
+
+
